@@ -1,11 +1,11 @@
 page 50105 ContainerData
 {
     ApplicationArea = All;
-    Caption = 'ContainerDetailsPage';
-    PageType = List;
+    Caption = 'Tracking Information';
+    PageType = ListPart;
     SourceTable = ContainerData;
     UsageCategory = Administration;
-    Editable = true;
+    Editable = false;
 
     layout
     {
@@ -29,14 +29,14 @@ page 50105 ContainerData
                 {
                     ToolTip = 'Date';
                 }
-                field(ContainerNumber; Rec.ContainerNumber)
-                {
-                    ToolTip = 'Container number';
-                }
-                field(OrderID; Rec.OrderID)
-                {
-                    ToolTip = 'Order ID';
-                }
+                // field(ContainerNumber; Rec.ContainerNumber)
+                // {
+                //     ToolTip = 'Container number';
+                // }
+                // field(OrderID; Rec.OrderID)
+                // {
+                //     ToolTip = 'Order ID';
+                // }
             }
         }
     }

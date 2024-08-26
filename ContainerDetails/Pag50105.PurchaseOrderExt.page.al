@@ -31,7 +31,7 @@ pageextension 50105 TestMyExtension extends "Purchase Order"
                     //GetContainerLocationDetails();
                     //ShowPopup();
                     ContainerData.SetRange(ContainerNumber, 'UETU2206651');
-                    Page.Run(50105, ContainerData);
+                    Page.Run(50107, Rec);
                     // TempLocation.Init();
                     // TempLocation.No := '1';
                     // TempLocation.Location := 'Testing';
